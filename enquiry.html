@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/icons/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
+  <title>Enquire About Orvia Services | Orvia Studio Group</title>
+  <meta name="description" content="Enquire about Orvia Studio Group services, products, volunteer opportunities, or sponsorships. Receive a helpful response about cost and availability.">
+  <meta name="keywords" content="Orvia enquiry, web design enquiry South Africa, sponsorship, volunteer, creative services">
+  <meta name="author" content="Orvia Studio Group">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://orviastudios.co.za/enquiry.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Orvia Studio Group">
+  <meta property="og:locale" content="en_ZA">
+  <meta property="og:title" content="Enquire About Orvia Services | Orvia Studio Group">
+  <meta property="og:description" content="Enquire about Orvia Studio Group services, products, volunteer opportunities, or sponsorship. Receive a helpful response about cost and availability.">
+  <meta property="og:url" content="https://orviastudios.co.za/enquiry.html">
+  <meta property="og:image" content="https://orviastudios.co.za/assets/brand/orvia-submark.png">
+  <meta property="og:image:alt" content="Orvia OV submark">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Enquire About Orvia Services | Orvia Studio Group">
+  <meta name="twitter:description" content="Enquire about services, products, volunteer opportunities, or sponsorship.">
+  <meta name="twitter:image" content="https://orviastudios.co.za/assets/brand/orvia-submark.png">
+  <link rel="manifest" href="./site.webmanifest?v=2">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a href="#main-content" class="skip-to-main">Skip to main content</a>
+<nav id="main-nav" aria-label="Primary navigation">
+  <div class="nav-left"><a href="index.html" class="nav-logo"><img src="assets/brand/orvia-submark.png" alt="Orvia Studio Group OV submark" width="1196" height="730" decoding="async"></a></div>
+  <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span></button>
+  <div class="nav-right"><ul class="nav-links">
+    <li><a href="index.html">Home</a></li><li><a href="index.html#services">Services</a></li><li><a href="index.html#process">Process</a></li><li><a href="about.html">About</a></li><li><a href="enquiry.html" aria-current="page">Enquiry</a></li><li><a href="contact.html" class="nav-cta">Contact</a></li>
+  </ul><button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false" title="Toggle dark/light mode"><div class="theme-toggle-track"><div class="theme-toggle-thumb"></div></div></button></div>
+</nav>
+<main id="main-content">
+  <section class="hero about-hero">
+    <div class="hero-content"><div class="hero-eyebrow">Service enquiry</div><h1>Tell us what you want to <span>explore.</span></h1><p>Use this form for services, products, volunteering, or sponsorship. We will respond with the relevant cost, availability, or next step.</p></div>
+  </section>
+  <section class="contact-detail-grid enquiry-layout" aria-labelledby="enquiry-title">
+    <div class="form-panel">
+      <div class="section-label">Enquiry form</div><h2 id="enquiry-title" class="section-title">Start with the essentials.</h2>
+      <form id="enquiry-form" data-async-form action="mailto:orviacreatives@gmail.com" method="post" novalidate>
+        <div class="form-grid">
+          <label for="enquiry-name">Name <span aria-hidden="true">*</span><input id="enquiry-name" name="name" type="text" autocomplete="name" required minlength="2" maxlength="120" placeholder="Your name"><small>Enter at least 2 characters.</small></label>
+          <label for="enquiry-email">Email <span aria-hidden="true">*</span><input id="enquiry-email" name="email" type="email" autocomplete="email" required maxlength="254" placeholder="you@example.com"><small>Use a valid email address.</small></label>
+          <label for="enquiry-phone">Phone <input id="enquiry-phone" name="phone" type="tel" pattern="[0-9+() -]{7,}" autocomplete="tel" maxlength="40" placeholder="Optional"></label>
+          <label for="enquiry-type">I want to enquire about <span aria-hidden="true">*</span><select id="enquiry-type" name="enquiry_type" required><option value="">Choose one</option><option value="service">A service</option><option value="product">A product</option><option value="volunteer">Volunteering</option><option value="sponsor">Sponsorship</option></select><small>Choose an enquiry type.</small></label>
+          <label for="enquiry-budget">Budget or contribution range <select id="enquiry-budget" name="budget"><option value="">Not sure yet</option><option>Under R10,000</option><option>R10,000–R25,000</option><option>R25,000+</option><option>Volunteer time</option><option>Sponsorship contribution</option></select></label>
+          <label for="enquiry-date">Preferred start date <input id="enquiry-date" name="preferred_date" type="date"></label>
+          <label class="full-width" for="enquiry-message">Tell us more <span aria-hidden="true">*</span><textarea id="enquiry-message" name="message" rows="6" required minlength="20" maxlength="3000" placeholder="What do you need, and what outcome would be useful?"></textarea><small>Please provide at least 20 characters.</small></label>
+          <p class="form-privacy-note full-width">This form prepares an email draft in your email application; the site does not send it. Your email provider may sync the draft. Do not include sensitive information. Read the <a href="privacy.html">Privacy Notice</a>.</p>
+          <label class="checkbox-label full-width" for="enquiry-privacy-ack"><input id="enquiry-privacy-ack" name="privacy_acknowledged" type="checkbox" required> I have read the privacy notice and understand that my details will be used to respond to this enquiry. <span aria-hidden="true">*</span></label>
+        </div>
+        <button class="btn-primary" type="submit">Prepare enquiry email</button>
+        <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+        <p class="form-response" data-form-response role="status" aria-live="polite" hidden></p>
+      </form>
+    </div>
+    <aside class="map-panel enquiry-explainer"><div class="section-label">What happens next</div><h2 class="section-title">A useful reply, not an automated dead end.</h2><p class="section-sub">We review your selection and message, then reply with the relevant cost guidance, availability, or next step. The form can also hand the information to your email client.</p><ul><li>Service enquiries receive scope and cost guidance.</li><li>Product enquiries receive availability information.</li><li>Volunteer and sponsor enquiries are routed to the organisation.</li></ul></aside>
+  </section>
+</main>
+<footer><div class="footer-logo"><img src="assets/brand/orvia-submark.png" alt="Orvia Studio Group OV submark" width="1196" height="730" loading="lazy" decoding="async"></div><div class="footer-copy">&copy; 2026 Orvia Studio Group. All rights reserved.</div><div class="footer-links"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="mailto:orviacreatives@gmail.com">Email</a><a href="privacy.html">Privacy</a></div></footer>
+<script src="js/app.js" defer></script>
+</body>
+</html>
