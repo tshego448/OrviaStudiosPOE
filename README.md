@@ -52,7 +52,7 @@ The Content Security Policy (CSP) restricts which sources the browser may load a
 
 ### References
 
-References and in-text citations below follow the IIE-adapted Harvard Anglia guide for online sources (The Independent Institute of Education, 2026).
+References and in-text citations below.
 
 Google Search Central, 2025a. *Understanding Core Web Vitals and Google Search results*. [online] Available at: <https://developers.google.com/search/docs/appearance/core-web-vitals> [Accessed 30 October 2026].
 
