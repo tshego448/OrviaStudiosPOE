@@ -24,7 +24,7 @@ A static, multi-page website built with HTML, CSS, and vanilla JavaScript. It ha
 
 `google01d1639d92260f82.html` remains at the root for Google Search Console verification. Keep page entry points and static-host configuration at the root.
 
-Here is the websute link - tiny-peony-12a0cc.netlify.app
+Here is the website link - https://tiny-peony-12a0cc.netlify.app
 
 ## Pages and behavior
 
